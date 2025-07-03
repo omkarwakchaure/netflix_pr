@@ -1,14 +1,14 @@
-import { useState } from 'react'
-
+import { useState } from "react";
+import Body from "./components/Body";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-       <div className='text-3xl text-red-500'>Hello</div>
+      <Body />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
